@@ -1,0 +1,839 @@
+{
+    "documents": [
+        {
+            "id": "id__1064",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.7,
+                "neutral": 0.04,
+                "negative": 0.26
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 8,
+                    "text": "18 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 8,
+                    "length": 16,
+                    "text": "2023 Muito bom. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 24,
+                    "length": 62,
+                    "text": "Comprei por um preço muito acessível e foi o que eu esperava. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 39,
+                            "length": 5,
+                            "text": "preço",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 51,
+                            "length": 9,
+                            "text": "acessível",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.97,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 86,
+                    "length": 11,
+                    "text": "Recomendo! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 97,
+                    "length": 41,
+                    "text": "motorola sendo motorola, a melhor marca. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 131,
+                            "length": 5,
+                            "text": "marca",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 124,
+                            "length": 6,
+                            "text": "melhor",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 138,
+                    "length": 73,
+                    "text": "Apenas uma dica para quem for comprar e não achar que veio com defeito:. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.29,
+                        "neutral": 0.61,
+                        "negative": 0.11
+                    },
+                    "offset": 211,
+                    "length": 140,
+                    "text": "Ao tirar o slot sim de cartões, é preciso apertar bastante com a chave pois o slot é bem grande, vai parecer que está travado mas não está. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.14,
+                                "negative": 0.86
+                            },
+                            "offset": 289,
+                            "length": 4,
+                            "text": "slot",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.14,
+                                "negative": 0.86
+                            },
+                            "offset": 329,
+                            "length": 7,
+                            "text": "travado",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.89,
+                        "neutral": 0.11,
+                        "negative": 0.01
+                    },
+                    "offset": 351,
+                    "length": 286,
+                    "text": "Quando liga pela primeira vez ele atualiza todos os aplicativos e usa bastante o celular, por isso vai esquentar bastante o celular, mas é só na primeira vez, depois ele normaliza e a bateria começa a durar mais conforme tu usa corretamente e carrega sempre entre 12% e 100% a bateria. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.07,
+                        "negative": 0.02
+                    },
+                    "offset": 637,
+                    "length": 110,
+                    "text": "Tenho um celular da motorola parecido, usando assim corretamente ele já tem 3 anos e ainda parece 100% novo!. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 747,
+                    "length": 18,
+                    "text": "Super recomendo!.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 765,
+                    "length": 8,
+                    "text": "10 dez. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 773,
+                    "length": 114,
+                    "text": "2023 Smartphone excelente, câmera ótima, me surpreendeu pela nitidez, cor viva e o celular bem rápido, não trava. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 779,
+                            "length": 10,
+                            "text": "Smartphone",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/11/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 801,
+                            "length": 6,
+                            "text": "câmera",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/11/assessments/1"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 857,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/11/assessments/2"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 790,
+                            "length": 9,
+                            "text": "excelente",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 808,
+                            "length": 5,
+                            "text": "ótima",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.99,
+                                "negative": 0.01
+                            },
+                            "offset": 869,
+                            "length": 6,
+                            "text": "rápido",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 887,
+                    "length": 53,
+                    "text": "Carrega bem e demora descarregar pelos seus 5000mga. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.05,
+                        "negative": 0.95
+                    },
+                    "offset": 940,
+                    "length": 98,
+                    "text": "Se eu fosse por comentário não compraria, mas eu comprei por ter 128 gb, e ter bateria duradoura. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1038,
+                    "length": 88,
+                    "text": "O celular tem um design bonito, cor diferenciada, comprei pra minha mãe e nós adoramos. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1041,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/14/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1056,
+                            "length": 6,
+                            "text": "design",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/14/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1117,
+                            "length": 8,
+                            "text": "adoramos",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1063,
+                            "length": 6,
+                            "text": "bonito",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.95,
+                        "neutral": 0.02,
+                        "negative": 0.03
+                    },
+                    "offset": 1126,
+                    "length": 143,
+                    "text": "Eu me surpreendi muito pois utilizo sansung a muito tempo e não gosto muito de motorola, mas esse daí eu gostei, tb não esquenta, e não trava. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1206,
+                            "length": 8,
+                            "text": "motorola",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/15/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1232,
+                            "length": 6,
+                            "text": "gostei",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1269,
+                    "length": 8,
+                    "text": "01 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1277,
+                    "length": 63,
+                    "text": "2023 Muito lindo, só a bateria que descarrega um pouco rápido.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1340,
+                    "length": 8,
+                    "text": "01 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1348,
+                    "length": 18,
+                    "text": "2023 Maravilhoso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.03,
+                        "negative": 0.01
+                    },
+                    "offset": 1366,
+                    "length": 29,
+                    "text": "Superou minhas expectativas.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1395,
+                    "length": 8,
+                    "text": "16 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 1403,
+                    "length": 183,
+                    "text": "2023 O celular é bom mas a câmara é péssima a foto fica muito desfocada já tentei de tudo mas isso é do próprio celular que pena vou ter que comprar um produto pra auxiliar a câmara.\n",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1413,
+                            "length": 7,
+                            "text": "celular",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/22/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 1433,
+                            "length": 6,
+                            "text": "câmara",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/22/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 1423,
+                            "length": 3,
+                            "text": "bom",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 1442,
+                            "length": 7,
+                            "text": "péssima",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1586,
+                    "length": 8,
+                    "text": "15 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 1594,
+                    "length": 42,
+                    "text": "2023 É muito bom sempre comprei motorola. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.93,
+                        "negative": 0.06
+                    },
+                    "offset": 1636,
+                    "length": 52,
+                    "text": "Só que é a primeira vez que vêm sem fone de ouvido.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1688,
+                    "length": 8,
+                    "text": "19 dez. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 1696,
+                    "length": 54,
+                    "text": "2023 Maravilhoso, super leve,meu primeiro dia de uso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.18,
+                        "neutral": 0.02,
+                        "negative": 0.79
+                    },
+                    "offset": 1750,
+                    "length": 92,
+                    "text": "Até então tudo ok, até agora única coisa que percebi foi que esquenta bastante ao carregar. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.66,
+                        "neutral": 0.33,
+                        "negative": 0.01
+                    },
+                    "offset": 1842,
+                    "length": 57,
+                    "text": "Mas, talvez seja apenas na primeira carga, assim espero! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 1899,
+                    "length": 31,
+                    "text": "de resto, bom custo benefício.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1930,
+                    "length": 8,
+                    "text": "29 nov. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.08,
+                        "negative": 0.91
+                    },
+                    "offset": 1938,
+                    "length": 45,
+                    "text": "2023 A bateria não segura carga um dia todo. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 1951,
+                            "length": 7,
+                            "text": "bateria",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/32/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 1963,
+                            "length": 12,
+                            "text": "segura carga",
+                            "isNegated": true
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1983,
+                    "length": 14,
+                    "text": "O máximo 12h.\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 1,
+                        "negative": 0
+                    },
+                    "offset": 1997,
+                    "length": 8,
+                    "text": "17 dez. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 2005,
+                    "length": 185,
+                    "text": "2023 Bem comprei o aparelho é com 2 dias de uso fui carregar acendeu a lanterna e não apagou mais levei na motorola nem eles sabiam explicar oq ouve , agora querem recusar a devolução. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.09,
+                        "negative": 0.91
+                    },
+                    "offset": 2190,
+                    "length": 48,
+                    "text": "O telefone descarregou é a lanterna não apagou. ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
